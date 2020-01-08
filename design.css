@@ -1,0 +1,76 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.ground .box{
+	font-family: verdana;
+	text-align: center;
+	border: 2px solid black;
+	font-size: 125px;
+	padding-top: 20px;
+	width: 160px;
+	height: 160px;
+	line-height: 100px;
+	float: left;
+	cursor: pointer;
+}
+#cont {
+	position: absolute;
+	top: 50px;
+	left: 500px;
+}
+.ground {
+	width: 480px;
+	overflow: hidden;
+	margin: 50px auto 0 auto;
+}
+.ground .box:hover{
+	background-color: #9e9eb1;
+	color: white;
+
+}
+.ground .box:active{
+	background-color: #efbf12;
+	color: white;
+}
+#head{
+	width: 100%;
+	height: 40px;
+	display: block;
+	text-align: center;
+	font-family: verdana;
+	color:white;
+	font-size: 25px;
+	background: green;
+	margin-bottom: 10px;
+	font-weight: bold;
+	padding-top: 5px;
+
+}
+#pa{
+	background: #f48c04;
+	color: white;
+	font-weight: bold;
+	font-family: verdana;
+	border: 1px solid black;
+	width: 100%;
+	height: 40px;
+	font-size: 22px;
+	text-align: center;
+	cursor: pointer;
+	margin: 10px auto;
+	left: 10px;
+}
+.win{
+	background: #3f7acc;
+	color: white;
+
+}
+
+
+}
+#naam{
+	font-size: 40px;
+	text-align: center;
+}
